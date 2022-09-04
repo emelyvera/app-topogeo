@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/topogeo-app/static/css/main.8cb2d953.css",
-    "main.js": "/topogeo-app/static/js/main.a3acdbca.js",
+    "main.css": "/topogeo-app/static/css/main.3f72b4b8.css",
+    "main.js": "/topogeo-app/static/js/main.5ddc7c5b.js",
     "static/media/mina.png": "/topogeo-app/static/media/mina.6cb7c1589cc22afc5084.png",
     "static/media/body.png": "/topogeo-app/static/media/body.5c9b88e699230cdb3c60.png",
     "static/media/dron.png": "/topogeo-app/static/media/dron.7677f0cf08559e318d48.png",
@@ -9,11 +9,11 @@
     "static/media/group.png": "/topogeo-app/static/media/group.cd9f5809cb804b2ab681.png",
     "static/media/WhatsApp.svg": "/topogeo-app/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
     "index.html": "/topogeo-app/index.html",
-    "main.8cb2d953.css.map": "/topogeo-app/static/css/main.8cb2d953.css.map",
-    "main.a3acdbca.js.map": "/topogeo-app/static/js/main.a3acdbca.js.map"
+    "main.3f72b4b8.css.map": "/topogeo-app/static/css/main.3f72b4b8.css.map",
+    "main.5ddc7c5b.js.map": "/topogeo-app/static/js/main.5ddc7c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cb2d953.css",
-    "static/js/main.a3acdbca.js"
+    "static/css/main.3f72b4b8.css",
+    "static/js/main.5ddc7c5b.js"
   ]
 }
