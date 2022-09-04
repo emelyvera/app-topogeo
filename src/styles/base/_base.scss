@@ -1,0 +1,38 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header,
+body,
+footer {
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+dt{
+    font-weight: 100;
+}
+
+dl{
+    padding-block-end: 10px;
+}
+ul, dl {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+p {
+
+    margin-bottom: 0
+}
