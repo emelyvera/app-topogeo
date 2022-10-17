@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-topogeo/static/css/main.97189ac8.css",
-    "main.js": "/app-topogeo/static/js/main.437f3943.js",
+    "main.css": "/app-topogeo/static/css/main.23334c87.css",
+    "main.js": "/app-topogeo/static/js/main.ce34fbd5.js",
     "static/media/logodos.png": "/app-topogeo/static/media/logodos.b8ebe313d761adb7ced0.png",
     "static/media/emprender.png": "/app-topogeo/static/media/emprender.923736e2a87b96c9de04.png",
     "static/media/colombia.png": "/app-topogeo/static/media/colombia.98728baba578d2208afb.png",
@@ -21,11 +21,11 @@
     "static/media/group.png": "/app-topogeo/static/media/group.cd9f5809cb804b2ab681.png",
     "static/media/WhatsApp.svg": "/app-topogeo/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
     "index.html": "/app-topogeo/index.html",
-    "main.97189ac8.css.map": "/app-topogeo/static/css/main.97189ac8.css.map",
-    "main.437f3943.js.map": "/app-topogeo/static/js/main.437f3943.js.map"
+    "main.23334c87.css.map": "/app-topogeo/static/css/main.23334c87.css.map",
+    "main.ce34fbd5.js.map": "/app-topogeo/static/js/main.ce34fbd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.97189ac8.css",
-    "static/js/main.437f3943.js"
+    "static/css/main.23334c87.css",
+    "static/js/main.ce34fbd5.js"
   ]
 }
