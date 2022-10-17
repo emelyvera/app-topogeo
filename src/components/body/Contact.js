@@ -1,13 +1,11 @@
 import React from 'react'
 import wss from '../../img/WhatsApp.svg'
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 export const Contact = () => {
     return (
         <>
-
             <section className='body__container'>
                 <div className='contact__con-sub'>
                     <FontAwesomeIcon className='contact__icon' icon={faLocationDot} />
@@ -34,7 +32,6 @@ export const Contact = () => {
             <a href="https://wa.link/b9bmck" target='_blank' rel='noreferrer'>
                 <img className='contact__wss' src={wss} alt="Whatsapp" />
             </a>
-
         </>
     )
 }

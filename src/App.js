@@ -11,18 +11,14 @@ import { Nav } from './components/header/Nav'
 export const App = () => {
   return (
     <>
-
-      <Header />
       <Nav />
+      <Header />
       <Carrousel />
-      <Body/>
-      <CorporateCulture/>
+      <Body />
+      <CorporateCulture />
       <Services />
-      <Contact/>
-      <Footer/>
-      
+      <Contact />
+      <Footer />
     </>
-
-
   )
 }

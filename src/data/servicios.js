@@ -1,7 +1,4 @@
-
 export const servicios = {
-
-
     topografia: {
         georeferenciacion: 'Te permitirá tener una ubicación precisa de un lugar que quieras conocer asignando coordenadas espaciales que te servirán para cualquier proyecto que quieras hacer con tu inmueble. Utilizando equipos RTK y estación total, TOPOGEO MV te ofrece el mejor servicio en georreferenciación.',
         aclaracionesArea: 'Te ayudará a corregir la información relacionada con el área de tu inmueble de acuerdo a los títulos y verificaciones realizadas en campo. Esta actividad te permitirá establecer un avalúo catastral justo de tu inmueble, el cual incluye las variables de áreas de terreno y construcción siguiendo con las normas dadas por las entidades estatales como la resolución 643 de 2018 del igac. TOPOGEO MV, sabe que realizar estos procedimientos suelen ser tediosos, por eso te brindamos un acompañamiento desde principio a fin, en los trámites que necesites realizar.',
@@ -12,9 +9,7 @@ export const servicios = {
         englobesDesenglobes: 'Estos procedimientos, te permiten realizar registro de las modificaciones que ocurran en los linderos de sus predios ya sea por una acción de agregación (englobe, agregar más área) o segregación (desenglobe, quitar área) sin estar condicionado o no al cambio de propietario o poseedor, TOPOGEO MV te presta este servicio con el mejor acompañamiento profesional y tecnológico para que no tengas ningún inconveniente. ',
         altimetricoPlanimetrico: 'Estos dos procedimientos te permiten tener proyección de puntos específicos y las alturas de estos en un plano de comparación. Para que puedas obtener un plano de tu predio, con los sitios o indicaciones que quieras plasmar.',
         replanteo: 'El replanteo te permite realizar o identificar algunos puntos específicos sobre tu terreno, para que nos indiquen información contenida ya en el plano, lo cual nos permite ver movimientos de tierra, anclajes iniciales'
-
     },
-
     geologiaCivil: {
         minera: {
             mineria: 'TOPOGEO MV cuenta con los equipos y el personal profesional y especializado para brindar estudios mineros ya sean para minería a cielo abierto o subterránea; ofreciendo servicios como: ',
@@ -28,7 +23,6 @@ export const servicios = {
                 'Asesoría en legislación minera.'
             ]
         },
-
         infraestructura: {
             infra: 'TOPOGEO MV, cuenta con equipos de última tecnología, que te permiten estar a la vanguardia en servicios de topografía en la región, ofreciendo servicios para corredores viales y construcciones como:',
             serviciosIngra: [
@@ -40,12 +34,26 @@ export const servicios = {
             ]
         }
     },
-
     estudios: [
         'Análisis físicos y químicos de suelos.',
         'Asesoría en formulación de proyectos.',
         'Proyectos en impacto ambienta.'
-    ]
-
-
+    ],
+    geologia: {
+        geologia: 'TOPOGEO MV, se encarga de prestar servicios geológicos de la mano de los mejores profesionales en los cuales se destacan:',
+        serviciosGeo: [
+            'Caracterización de Materias Primas.',
+            'Caracterización Mineralógica y Petrográfica.',
+            'Cartografía Geológica de Superficie y Subterránea.',
+            'Cartografía Geomorfológica.',
+            'Descripción de Núcleos de Perforación.',
+            'Geología Estructural.',
+            'Interpretación de Sensores Remotos.',
+            'Modelamiento Geológico 3D.',
+            'Modelamiento y Estimación de Recursos y Reservas.',
+            'Muestreo Geoquímico con Fines Multipropósito o Específicos.',
+            'Prospección de Aguas Subterráneas.',
+            'Prospección y Evaluación de Yacimientos.'
+        ]
+    }
 }

@@ -4,15 +4,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export const Services = () => {
-
     let topografia = servicios.topografia;
     let geologiaCivil = servicios.geologiaCivil;
 
     return (
         <div className='service'>
             <section className='service__section'>
-                <h2 id='Topografia'>Topografía</h2>
+                <h2 id='Catastro'>Catastro y Geodesia</h2>
                 <div className='service__topography'>
+                    <div className='service__topography-items'>
+                        <h3 id='Topografía_y_fotogrametría_aerea'>Topografía Fotogrametría</h3>
+                        <p className='topo__text'>{topografia.topografiaFotogrametria.topografia}</p>
+                        <p>{topografia.topografiaFotogrametria.fotogrametria}</p>
+                    </div>
                     <div className='service__topography-items' >
                         <h3 id='Georeferenciación'>Georeferenciación</h3>
                         <p>{topografia.georeferenciacion}</p>
@@ -22,16 +26,11 @@ export const Services = () => {
                         <p>{topografia.aclaracionesArea}</p>
                     </div>
                     <div className='service__topography-items'>
-                        <h3 id='Topografía_y_fotogrametría_aerea'>Topografía  Fotogrametría</h3>
-                        <p className='topo__text'>{topografia.topografiaFotogrametria.topografia}</p>
-                        <p>{topografia.topografiaFotogrametria.fotogrametria}</p>
-                    </div>
-                    <div className='service__topography-items'>
                         <h3 id='Englobes_y_desenglobes'>Englobes  Desenglobes</h3>
                         <p>{topografia.englobesDesenglobes}</p>
                     </div>
                     <div className='service__topography-items'>
-                        <h3 id='Levantamiento_Altimetrico_y_Planimetro'>Levantamiento Altimétrico  Planímetro</h3>
+                        <h3 id='Levantamiento_Altimetrico_y_Planimetro'>Levantamiento Altimétrico Planímetro</h3>
                         <p>{topografia.altimetricoPlanimetrico}</p>
                     </div>
                     <div className='service__topography-items'>
@@ -43,11 +42,9 @@ export const Services = () => {
             <br />
             <hr />
             <section className='service__section'>
-
-                <h2 id='Geologia'>Geología y Civil</h2>
+                <h2 id='Mineria'>Minería</h2>
                 <div className='service__topography'>
                     <div className="gc__services">
-                        <h3 id='Minas'>Cartogrfía Minera</h3>
                         <p className='gc__text'>{geologiaCivil.minera.mineria}</p>
                         <section>
                             {
@@ -59,7 +56,6 @@ export const Services = () => {
                                                     <FontAwesomeIcon className='header__icon service__color' icon={faCheck} />
                                                     <dt key={i + s}>{s}</dt>
                                                 </div>
-
                                             </dl>
                                         </dt>
                                     )
@@ -67,8 +63,15 @@ export const Services = () => {
                             }
                         </section>
                     </div>
+                </div>
+            </section>
+            <br />
+            <hr />
+            <section className='service__section'>
+                <h2 id='Infraestructura'>Infraestructura</h2>
+                <div className='service__topography'>
                     <div className="gc__services">
-                        <h3 id='Proyectos_Viales'>Infraestructura - Corredores Viales</h3>
+                        <h3 id='Corredores viales'>Corredores Viales</h3>
                         <p className='gc__text'>{geologiaCivil.infraestructura.infra}</p>
                         <section>
                             {
@@ -87,17 +90,13 @@ export const Services = () => {
                                 })
                             }
                         </section>
-
                     </div>
                 </div>
-
             </section>
             <br />
             <hr />
             <section >
-
                 <h2 id='Estudios'>Estudios</h2>
-
                 <div >
                     {servicios.estudios.map((e, i) => {
                         return (
@@ -112,11 +111,29 @@ export const Services = () => {
                             </dt>
                         )
                     })}
-
                 </div>
+            </section>
+            <br />
+            <hr />
+            <section >
+                <h2 id='Geologia'>Geología</h2>
+                <p className='gc__text'>{servicios.geologia.geologia}</p>
+                <div >
+                    {servicios.geologia.serviciosGeo.map((e, i) => {
+                        return (
+                            <dt>
+                                <dl className='footer__sub-serv' >
+                                    <div className='footer__sub-service'>
+                                        <FontAwesomeIcon className='header__icon service__color' icon={faCheck} />
+                                        <dt id='Analisis' key={i}>{e}</dt>
+                                    </div>
 
+                                </dl>
+                            </dt>
+                        )
+                    })}
+                </div>
             </section>
         </div>
-
     )
 }

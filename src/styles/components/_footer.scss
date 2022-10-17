@@ -3,14 +3,15 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
 .footer__color{
     color: white;
     &:hover{
         color: white;
     }
 }
-
+.footer{
+    color: white;
+}
 .footer__container {
     background-color: $primary;
     color: white;
@@ -20,21 +21,17 @@ footer {
     padding: 30px;
     margin: 0;
 }
-
 .footer_logo {
     height: 300px;
 }
-
 .footer__sub-service {
     display: flex;
     padding-left: 15px;
     align-items: center;
 }
-
 .margin {
     padding-block-start: 5px;
 }
-
 .emely {
     color: whitesmoke;
     text-align: center;
@@ -42,16 +39,12 @@ footer {
 }
 
 @media screen and (max-width :768px) {
-
     .footer_logo {
         height: 100px;
     }
-
 }
-
 @media screen and (max-width :480px) {
     .footer__container{
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
 }

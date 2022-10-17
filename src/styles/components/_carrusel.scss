@@ -1,17 +1,15 @@
-.carrusel__container{
-    height: 50vh;
-    width: 100vw;
-    background-color: $rose;
+.carrusel__container {
+    height: 60vh;
+    background-color: $primary;
 }
-
-.carrusel__img{
-    width: 100%;
+.carrusel__img {
+    display: block;
+    margin: auto;
     height: 100%;
 }
 
-
 @media screen and (max-width :480px) {
-    .carrusel__container{
+    .carrusel__container {
         height: 40vh;
     }
 }

@@ -4,8 +4,6 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone, faLocationDot, faCheck } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../img/group.png'
 
-
-
 export const Footer = () => {
 
     return (
@@ -15,8 +13,12 @@ export const Footer = () => {
                 <div>
                     <h5>Servicios</h5>
                     <dl >
-                        <dt><a className="footer__color" href="#Topografia">TOPOGRAFÍA</a>
+                        <dt><a className="footer__color" href="#Catastro">CATASTRO Y GEODESIA</a>
                             <dl className='footer__sub-serv' >
+                                <div className='footer__sub-service'>
+                                    <FontAwesomeIcon className='header__icon' icon={faCheck} />
+                                    <dt><a className="footer__color" href="#Topografía_y_fotogrametría_aerea">Topografía y fotogrametría aerea</a></dt>
+                                </div>
                                 <div className='footer__sub-service'>
                                     <FontAwesomeIcon className='header__icon' icon={faCheck} />
                                     <dt><a className="footer__color" href="#Georeferenciación">Georeferenciación</a></dt>
@@ -24,10 +26,6 @@ export const Footer = () => {
                                 <div className='footer__sub-service'>
                                     <FontAwesomeIcon className='header__icon' icon={faCheck} />
                                     <dt><a className="footer__color" href="#Aclaraciones_de _areas">Aclaraciones de áreas</a></dt>
-                                </div>
-                                <div className='footer__sub-service'>
-                                    <FontAwesomeIcon className='header__icon' icon={faCheck} />
-                                    <dt><a className="footer__color" href="#Topografía_y_fotogrametría_aerea">Topografía y fotogrametría aerea</a></dt>
                                 </div>
                                 <div className='footer__sub-service'>
                                     <FontAwesomeIcon className='header__icon' icon={faCheck} />
@@ -43,20 +41,12 @@ export const Footer = () => {
                                 </div>
                             </dl>
                         </dt>
-                        <dt><a className="footer__color" href="#Geologia">GEOLOGÍA Y CIVIL</a>
+                        <dt><a className="footer__color" href="#Mineria">MINERÍA</a></dt>
+                        <dt><a className="footer__color" href="#Infraestructura">INFRAESTRUCTURA</a>
                             <dl>
                                 <div className='footer__sub-service'>
                                     <FontAwesomeIcon className='header__icon' icon={faCheck} />
-                                    <dt><a className="footer__color" href="#Minas">Cartografía minera</a></dt>
-                                </div>
-                                <div className='footer__sub-service'>
-                                    <FontAwesomeIcon className='header__icon' icon={faCheck} />
-                                    <dt><a className="footer__color" href="#Minas">Asesoría en legislación minera</a></dt>
-                                </div>
-                                <div className='footer__sub-service'>
-                                    <FontAwesomeIcon className='header__icon' icon={faCheck} />
-                                    <dt><a className="footer__color" href="#Proyectos_Viales">Proyectos Viales</a></dt>
-
+                                    <dt><a className="footer__color" href="#Infraestructura">CORREDORES VIALES</a></dt>
                                 </div>
                             </dl>
                         </dt>
@@ -76,6 +66,7 @@ export const Footer = () => {
                                 </div>
                             </dl>
                         </dt>
+                        <dt><a className="footer__color" href="#Geologia">GEOLOGÍA</a></dt>
                     </dl>
                 </div>
                 <div>
@@ -93,20 +84,16 @@ export const Footer = () => {
                         <p>topogeomvsas@gmail.com</p>
                     </div>
                     <div className="footer__sub-service margin">
-                        <a href="https://web.facebook.com/profile.php?id=100078414856166" target='_blank' rel='noreferrer'><FontAwesomeIcon className='header__icon' icon={faFacebook} /></a>
+                        <a href="https://web.facebook.com/profile.php?id=100078414856166" target='_blank' rel='noreferrer'><FontAwesomeIcon className='header__icon footer' icon={faFacebook} /></a>
                         <p>Topogeo MV</p>
                     </div>
                     <div className="footer__sub-service margin">
-                        <a href="https://www.instagram.com/topogeomvsas/" target='_blank' rel='noreferrer'><FontAwesomeIcon className='header__icon' icon={faInstagram} /></a>
+                        <a href="https://www.instagram.com/topogeomvsas/" target='_blank' rel='noreferrer'><FontAwesomeIcon className='header__icon footer' icon={faInstagram} /></a>
                         <p>topogeomvsas</p>
                     </div>
                 </div>
             </div>
-
             <span className='emely'>©2022 by Emely Daniela Vera</span>
-
-
         </footer>
-
     )
 }

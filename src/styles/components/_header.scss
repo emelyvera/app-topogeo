@@ -1,52 +1,40 @@
 header {
-    background-color: $primary
-}
-
-.header__container{
-    max-width: 70%;
-    height: 15vh;
-    color: white;
-    font-size: 16px;
+    font-size: 15px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 1%; 
-    margin-inline-start: 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
 }
-
-.header__icon{
+.header__icon {
     padding-inline-end: 5px;
-    color: white;
-    &:hover{
-        color: white;
+    &:hover {
+        color: black;
         transform: scale(0.9);
     }
-}.start{
-    
+}
+.start {
     padding-inline-start: 15px;
 }
 .header__info {
     display: flex;
 }
+.header__colombia {
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.escudo {
+    height: 100%;
+}
 
 @media screen and (max-width :768px) {
-
-   header{
-    display: none;
-   }
-
+    header {
+        display: none;
+    }
 }
 @media screen and (max-width :480px) {
-
-    header{
-     display: none;
+    header {
+        display: none;
     }
- 
- }
-
-
-
-
-
-
-
+}
