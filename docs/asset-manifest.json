@@ -1,19 +1,31 @@
 {
   "files": {
-    "main.css": "/app-topogeo/static/css/main.3f72b4b8.css",
-    "main.js": "/app-topogeo/static/js/main.3fac4fee.js",
-    "static/media/mina.png": "/app-topogeo/static/media/mina.6cb7c1589cc22afc5084.png",
-    "static/media/body.png": "/app-topogeo/static/media/body.5c9b88e699230cdb3c60.png",
-    "static/media/dron.png": "/app-topogeo/static/media/dron.7677f0cf08559e318d48.png",
+    "main.css": "/app-topogeo/static/css/main.97189ac8.css",
+    "main.js": "/app-topogeo/static/js/main.437f3943.js",
+    "static/media/logodos.png": "/app-topogeo/static/media/logodos.b8ebe313d761adb7ced0.png",
+    "static/media/emprender.png": "/app-topogeo/static/media/emprender.923736e2a87b96c9de04.png",
+    "static/media/colombia.png": "/app-topogeo/static/media/colombia.98728baba578d2208afb.png",
+    "static/media/diez.jpeg": "/app-topogeo/static/media/diez.00c808a16b6979c86be7.jpeg",
+    "static/media/dos.jpeg": "/app-topogeo/static/media/dos.387243ebf82c0d07f49f.jpeg",
+    "static/media/gobierno.png": "/app-topogeo/static/media/gobierno.3cf74b3976fa75d1823b.png",
+    "static/media/nueve.jpeg": "/app-topogeo/static/media/nueve.cea417ffffae9b143f46.jpeg",
+    "static/media/mintrabajo.png": "/app-topogeo/static/media/mintrabajo.a35d122e627eac88933f.png",
+    "static/media/uno.jpeg": "/app-topogeo/static/media/uno.9f646a2fd29d2b9ac35b.jpeg",
+    "static/media/tres.jpeg": "/app-topogeo/static/media/tres.0c202b823889785ca618.jpeg",
+    "static/media/siete.jpeg": "/app-topogeo/static/media/siete.00d296d99177a0319e1f.jpeg",
+    "static/media/seis.jpeg": "/app-topogeo/static/media/seis.dc39ea3a5596c9796fac.jpeg",
+    "static/media/cuatro.jpeg": "/app-topogeo/static/media/cuatro.2dc3d84c0a86ec8166b5.jpeg",
+    "static/media/cinco.jpeg": "/app-topogeo/static/media/cinco.7ee2a58b7e63204167c2.jpeg",
+    "static/media/ocho.jpeg": "/app-topogeo/static/media/ocho.c826fa94311d53c66cb9.jpeg",
     "static/media/logo.png": "/app-topogeo/static/media/logo.38a7dd42bd9de50b37cd.png",
     "static/media/group.png": "/app-topogeo/static/media/group.cd9f5809cb804b2ab681.png",
     "static/media/WhatsApp.svg": "/app-topogeo/static/media/WhatsApp.6181e5cecd1a682846ba3e623621a869.svg",
     "index.html": "/app-topogeo/index.html",
-    "main.3f72b4b8.css.map": "/app-topogeo/static/css/main.3f72b4b8.css.map",
-    "main.3fac4fee.js.map": "/app-topogeo/static/js/main.3fac4fee.js.map"
+    "main.97189ac8.css.map": "/app-topogeo/static/css/main.97189ac8.css.map",
+    "main.437f3943.js.map": "/app-topogeo/static/js/main.437f3943.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f72b4b8.css",
-    "static/js/main.3fac4fee.js"
+    "static/css/main.97189ac8.css",
+    "static/js/main.437f3943.js"
   ]
 }
