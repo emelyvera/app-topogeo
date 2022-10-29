@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && mv build docs",
@@ -47,6 +47,12 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1"
   }
